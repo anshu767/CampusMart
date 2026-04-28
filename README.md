@@ -1,3 +1,8 @@
+![MERN](https://img.shields.io/badge/Stack-MERN-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+
 # 🚀 CampusMart
 
 A full-stack MERN application for managing products and user interactions.
