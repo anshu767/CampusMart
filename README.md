@@ -1,100 +1,51 @@
-# Full Stack React Node MongoDB Project
+![MERN](https://img.shields.io/badge/Stack-MERN-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-This is a full stack application with React frontend, Node.js/Express backend, and MongoDB database, featuring user authentication.
 
-## Project Structure
+# 🚀 CampusMart
 
-```
-project/
-├── backend/          # Node.js/Express server
-│   ├── controllers/  # Route handlers
-│   ├── middleware/   # Custom middleware
-│   ├── models/       # MongoDB models
-│   ├── routes/       # API routes
-│   ├── config/       # Configuration
-│   ├── server.js     # Main server file
-│   ├── package.json
-│   └── .env          # Environment variables
-└── frontend/         # React application
-    ├── public/       # Static files
-    ├── src/
-    │   ├── components/  # Reusable components
-    │   ├── pages/       # Page components
-    │   ├── App.js       # Main app component
-    │   ├── index.js     # Entry point
-    │   └── index.css    # Global styles
-    └── package.json
-```
+A full-stack MERN application for managing products and user interactions.
 
-## Prerequisites
+---
 
-- Node.js (v14 or higher)
-- MongoDB (running locally on port 27017)
-- npm or yarn
+## ✨ Features
+- 🔐 User Authentication (JWT)
+- 📦 Product CRUD (Add, Update, Delete)
+- 🔍 Search & Filter
+- 🛒 Cart System
+- 🌐 MongoDB Atlas Integration
 
-## Setup Instructions
+---
 
-### Backend Setup
+## ⚙️ Tech Stack
+- Frontend: React.js  
+- Backend: Node.js, Express.js  
+- Database: MongoDB Atlas  
 
-1. Navigate to the backend directory:
-   ```bash
-   cd backend
-   ```
+---
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+## 🚀 Run Locally
 
-3. Update the `.env` file with your MongoDB URI and a secure JWT secret:
-   ```
-   MONGO_URI=mongodb://localhost:27017/fullstack
-   JWT_SECRET=your_secure_jwt_secret_here
-   PORT=5000
-   ```
+### Backend
+cd backend  
+npm install  
+npm run dev  
 
-4. Start the backend server:
-   ```bash
-   npm run dev  # For development with nodemon
-   # or
-   npm start    # For production
-   ```
+### Frontend
+cd frontend  
+npm install  
+npm start  
 
-### Frontend Setup
+---
 
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
+## 📸 Screenshots
+<img width="1547" height="907" alt="Screenshot 2026-04-28 093213" src="https://github.com/user-attachments/assets/d3bdd223-8d77-4b97-a15b-11382b2d20ac" />
+<img width="1436" height="887" alt="Screenshot 2026-04-28 094738" src="https://github.com/user-attachments/assets/e33162f8-e923-4450-ab62-65795abefc2a" />
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
 
-3. Start the React development server:
-   ```bash
-   npm start
-   ```
 
-The frontend will run on `http://localhost:3000` and the backend on `http://localhost:5000`.
+---
 
-## API Endpoints
-
-- `POST /api/auth/register` - Register a new user
-- `POST /api/auth/login` - Login and receive JWT token
-
-## Features
-
-- User registration and login
-- JWT-based authentication
-- Protected routes
-- React Router for navigation
-- Axios for API calls
-
-## Next Steps
-
-- Add more features like user profiles, posts, etc.
-- Implement proper error handling and validation
-- Add testing
-- Deploy to production
+## 💻 Author
+👤 Anshu Singh
